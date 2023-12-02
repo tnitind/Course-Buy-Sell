@@ -1,0 +1,84 @@
+.faqMaindiv {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    margin-bottom: 9rem;
+  }
+  .faq_logo{
+    margin-left: 30px;
+  }
+  .img_part {
+    width: 30%;
+    padding-right: 20px;
+  }
+  
+  .img_part img {
+    width: 100%;
+    max-width: 400px; /* Adjust the max-width of the image as needed */
+    height: auto;
+  }
+  
+  .faqheading {
+    width: 60%;
+  }
+  
+  .Written_content {
+    margin-bottom: 20px;
+  }
+  
+  .Written_content h1{
+    display: flex;
+    justify-content: left;
+    font-size: 3.1rem;
+    margin-top: 6rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #243E63;
+}
+.Written_content span{
+    font-size: 3.1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #6415FF;
+}
+.Written_content p{
+    display: flex;
+    justify-content: left;
+    color: #7C8BA1;
+    text-align: left;
+    padding-right: 5rem;
+    font-size: 20px;
+}
+  
+.faqToogle {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .faqQNA {
+    cursor: pointer;
+  }
+  
+  .faqQNA h3 {
+    font-family: sans-serif;
+    font-size: 20px;
+    color: #2B3E63;
+  }
+  
+  .faqQNA p {
+    font-family: sans-serif;
+    font-size: 16px;
+    color: #243e63;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.3s ease, opacity 0.3s ease;
+    padding-left: 10px;
+  }
+  
+  .faqQNA.open p {
+    max-height: 200px; /* Set a desired max-height when the answer is open */
+    opacity: 1;
+  }

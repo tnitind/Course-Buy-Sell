@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+/* CSS */
+.button-66 {
+  background-color: #6415FF;
+  border-radius: 4px;
+  border: 0;
+  box-shadow: rgba(1,60,136,.5) 0 -1px 3px 0 inset,rgba(0,44,97,.1) 0 3px 6px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inherit;
+  font-family: "Space Grotesk",-apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  margin: 0;
+  min-height: 56px;
+  min-width: 120px;
+  padding: 16px 20px;
+  position: relative;
+  text-align: center;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  transition: all .2s cubic-bezier(.22, .61, .36, 1);
+}
+
+.button-66:hover {
+  background-color: #065dd8;
+  transform: translateY(-2px);
+}
+
+@media (min-width: 768px) {
+  .button-66 {
+    padding: 16px 44px;
+    min-width: 150px;
+  }
+}
+
+/* Apply these styles to the element with the scrollbar, e.g., a container div */
+
+/* Hide the default scrollbar */
+::-webkit-scrollbar {
+  width: 9px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the background color of the track */
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #6415FF; /* Set the color of the scrollbar handle */
+  border-radius: 4px; /* Round the corners of the handle */
+}
+
+/* On hover, make the handle darker */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

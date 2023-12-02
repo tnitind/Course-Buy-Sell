@@ -1,0 +1,176 @@
+.viewupperdiv{
+    height:450px;
+    background-color: black;
+    margin-top: -45px;
+}
+.Course_data_info{
+    color: white;
+    padding-left: 100px;
+    font-family: sans-serif;
+    font-size: 15px;
+
+}
+.createdby{
+    color: white;
+    padding-left: 100px;
+    font-size: 23px;
+
+}
+.viewtitle{
+    width: 50%;
+    font-size: 57px;
+    color: white;
+    padding-left: 100px;
+    padding-top: 100px;
+    display: flex;
+    text-align: left;
+    justify-content: left;
+}
+.viewdesc{
+    width: 90%;
+    font-size: 17px;
+    line-height: 280%;
+    margin-top: 40px;
+}
+
+.viewlowerdiv{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    padding-bottom: 90px;
+    padding-top: 20px;
+}
+.learn{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.secondsegheading{
+    font-size: 40px;
+    line-height: 50%;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    font-weight: 600;
+}
+.secondsegdesc{
+    font-size: 17px;
+    line-height: 240%;
+    margin-top: 40px;
+    width: 90%;
+}
+
+.pemplate{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    border-style: solid;
+    border-color: rgb(36, 31, 31);
+    border-width: 1px;
+    padding: 40px;
+    background-color: white;
+    margin-top: -400px;
+    margin-bottom: 400px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 7px 4px #6315ff49;
+}
+.pricetag{
+    font-size: 32px;
+    font-weight: 700;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    color: #212224;
+}
+.pricespan{
+    font-size: 18px;
+    text-decoration: line-through;
+    margin-left: 10px;
+    color: #474849;
+}
+.discountoffer{
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 8px;
+    color: #474849;
+}
+.pemplatesbuttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addtocartpemplate{
+    width: 100%;
+    margin-bottom: 12px;
+    background-color: #6415FF;
+    font-size: 18px;
+    font-weight: 600;
+    transition: 300ms;
+    color: white;
+    height: 55px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color:#6415FF;
+
+}
+.addtocartpemplate:hover{
+    width: 100%;
+    margin-bottom: 12px;
+    background-color: #793df3;
+    font-size: 18px;
+    font-weight: 600;
+    transform: translatey(-3px);
+    transition: 300ms;
+    color: white;
+    height: 55px;
+    border-radius: 7px;
+    border-style: solid;
+    border-color:#6415FF;
+    cursor: pointer;
+}
+    .buynowpemplate{
+        width: 100%;
+        margin-bottom: 12px;
+        background-color: #6415FF;
+        font-size: 18px;
+        font-weight: 600;
+        transition: 300ms;
+        color: white;
+        height: 55px;
+        border-radius: 7px;
+        border-style: solid;
+        border-color:#6415FF;
+        cursor: pointer;
+
+    }
+    .buynowpemplate:hover{
+        width: 100%;
+        margin-bottom: 12px;
+        background-color: #793df3;
+        font-size: 18px;
+        font-weight: 600;
+        transform: translatey(-3px);
+        transition: 300ms;
+        color: white;
+        height: 55px;
+        border-radius: 7px;
+        border-style: solid;
+        border-color:#6415FF;
+        cursor: pointer;
+        }
+.courseincludeheading{
+    color: #212224;
+    font-size: 17px;
+}
+.courseincludepoints{
+    color: #50555c;
+    font-size: 16px;
+}
+.learndesc{
+    width: 90%;
+    font-size: 17px;
+    line-height: 280%;
+    margin-top: 40px;
+}

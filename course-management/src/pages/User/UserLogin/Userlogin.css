@@ -1,0 +1,123 @@
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .login-heading{
+    font-size: 3.1rem;
+    margin-top: 0rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #243E63;
+    margin-top: 3rem;
+  }
+  .login-heading span{
+    font-size: 3.1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #6415FF;
+  }
+  .login-box{
+    width: 32%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: #6315ff65; 
+    border-radius: 9px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 40px;
+    padding-bottom: 20px;
+    margin-top: 9%;
+    box-shadow: 1px 1px 9px 1px #6315ff65;
+  }
+  .lable-input{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  .lables{
+    display: block;
+    width: 20%;
+    margin-top: 10px;
+    font-weight: 600;
+    margin-left: 0px;
+    font-family: sans-serif;
+    font-size: 17px;
+    color: #6415FF;
+  }
+  input{
+    display: flex;
+    width: 35%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #7C8BB6;
+    transition: 200ms;
+  }
+  input:hover{
+    outline: none;
+    border: 1px solid #6415FF;
+    transition: 200ms;
+    }
+  input:focus{
+  outline: none;
+  border: 1px solid #6415FF;
+  transition: 200ms;
+  }
+  .login-button{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #6415FF;
+    width: 110px;
+    height: 45px;
+    margin-top: 30px;
+    border: #6415FF;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: 200ms;
+  }
+  .login-button:hover{
+    font-size: 18px;
+    font-family: sans-serif;
+    color: white;
+    background-color: #551fc0;
+    width: 110px;
+    height: 45px;
+    margin-top: 30px;
+    border: #6415FF;
+    border-radius: 3px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: 200ms;
+    transform: translateY(-3px);
+  }
+  
+  .loginSignup{
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #6415FF;
+  }
+  .loginSignup a{
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #6415FF;
+  }
+  .loginSignup a:hover{
+    margin-top: 20px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #461e96;
+  }

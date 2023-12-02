@@ -1,0 +1,117 @@
+/* Header container */
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #6415ff;
+  color: #fff;
+  padding: 15px;
+}
+.logo_role{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+.userrole{
+    font-family: sans-serif;
+    font-weight:200;
+    font-size: 15px;
+    border-radius: 50%;
+}
+.logo-name{
+  text-transform:uppercase;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: cursive;
+}
+.namelogorole{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+  padding:4px;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 9px;
+}
+.logo-name:hover{
+  text-transform:uppercase;
+  font-size: 19px;
+  font-weight: 400;
+  font-family: cursive;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.CartCount{
+  position: absolute;
+  top: 22px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  background-color: rgb(231, 60, 60);
+  border-radius: 10px;
+  width: 14px;
+  right: 16px;
+  cursor: pointer;
+}
+.left-part {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+}
+.left-part:hover {
+  font-family: sans-serif;
+  font-size: 15px;
+  text-decoration: underline;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.right-part {
+  display: flex;
+  font-family: sans-serif;
+  align-items: center;
+  font-weight: 600;
+}
+.walletmoney{
+  font-size: 20px;
+  font-family: sans-serif;
+  margin-right: 12px;
+  margin-left: 40px;
+}
+
+.right-part span {
+  margin-left: 10px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 19px;
+  padding-left: 11px;
+  padding-right: 11px;
+  padding-top: 5px;
+  border-radius: 50%;
+  padding-bottom: 5px;
+}
+
+.right-part a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.right-part a:first-child {
+  margin-left: 0;
+}
+
+.right-part a:hover {
+  text-decoration: underline;
+}

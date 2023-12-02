@@ -1,0 +1,68 @@
+.containerx{
+    background-color: #000000;
+    align-items: center;
+    display: flex;
+    justify-content:space-evenly;
+    height: 40rem;
+    background-repeat: no-repeat;
+    background-size:cover;
+    font-family: sans-serif;
+  }  
+  
+  .img-segment {
+    flex: 1;
+    text-align: center;
+    padding-right: 10rem;
+    width: 70%;
+  }
+  
+  .img-segment img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .head-segment {
+    flex: 1;
+    text-align: left;
+    padding-left: 4rem;
+  }
+  
+  .head-segment h1 {
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+    .head-segment span {
+    font-size: 3.2rem;
+    margin-bottom: 10px;
+    color: #6415FF; 
+    font-weight: 900;
+    background-color: white;
+    }
+  
+    .head-segment p {
+        font-family:monospace;
+        font-size: 1rem;
+        color: white;
+        border-left: 3px solid #6415FF;
+        padding-left: 10px;
+        font-style: italic;
+      }
+      .head-segment button{
+        margin-top: 10px;
+        font-size: 17px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .videofront{
+        border: 3px;
+        border-style: solid;
+        border-color: white;
+        box-shadow: 0px 0px 60px 0px blue
+      }
+      
+  
+      /* CSS */
+
+

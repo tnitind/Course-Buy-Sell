@@ -1,0 +1,109 @@
+.seller-dashboard {
+  display: flex;
+}
+
+.sidebar {
+  color: rgb(24, 24, 24);
+  flex: 0 0 200px;
+  background-color: #ffffff59;
+  padding-right: 0px;
+  padding-left: 0px;
+  transition: transform 0.3s ease-in-out;
+  transform: translateX(-100%);
+  box-shadow: 2.5px 0px 1px 0px #8458dd;
+}
+
+.sidebar.active {
+  transform: translateX(0);
+}
+
+.content {
+  flex: 1; /* Expand to fill available space */
+  padding: 20px;
+  transition: margin-left 0.3s ease-in-out;
+  width: -20%;
+  margin-left: -200px;
+}
+.content.shifted {
+  margin-left: 0px; /* Same as sidebar width */
+}
+
+  .sidebar-heading {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    text-align: left;
+    transition: 200ms;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    padding-left: 0px;
+    color: #243E63;
+    
+  }
+  .sidebar-heading:hover{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #e8dcff;
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    padding-left: 0px;
+    transform: translateY(-0px);
+    transition: 200ms;
+    background-color: #6415FF;
+    color: white;
+    border-radius: 0px;
+
+  }
+  .sidebar-heading-hover{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: #e8dcff;
+    width: 100%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 9px;
+    padding-left: 0px;
+    transform: translateY(-0px);
+    transition: 200ms;
+    background-color: #6415FF;
+    color: white;
+
+  }
+
+  .toggle-button {
+    cursor: pointer;
+    border: none;
+    background-color: #6415FF;
+    transition: 200ms;
+    width: 40px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    height: 40px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .toggle-button:hover {
+    cursor: pointer;
+    border: none;
+    background-color: #490fbd;
+    transform: rotate(5deg);
+    transition: 200ms;
+  }
+  

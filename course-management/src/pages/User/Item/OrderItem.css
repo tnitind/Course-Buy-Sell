@@ -1,0 +1,63 @@
+.buy-now-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+  }
+  .nameaddressinputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+  }
+  .billingdetails{
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 4px;
+    font-size: 3.1rem;
+    font-family: sans-serif;
+    font-weight: 900;
+    color: #6415FF;
+  }
+  .primary-part,
+  .secondary-part {
+    flex: 1;
+    padding: 20px;
+    border: 1px solid #ccc;
+  }
+  
+  .secondary-part {
+    margin-left: 20px;
+  }
+  
+  .summary {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    width: 45.5%;
+    margin-left: 1.25%;
+    margin-bottom: 6%;
+  }
+  
+  .total {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+  }
+  
+  .checkout-button {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
